@@ -48,6 +48,8 @@ bindsym XF86AudioPrev  exec playerctl previous
 bindsym XF86AudioPlay  exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 
+#Polkit
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
 
 include /etc/sway/config.d/*
 
