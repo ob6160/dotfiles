@@ -1,0 +1,18 @@
+#
+# Status Bar:
+#
+# Read `man 5 sway-bar` for more information about this section.
+
+bar {
+    position top
+    font "Terminus (TTF)"
+    
+    status_command while ~/.config/sway/scripts/statusbar.sh; do sleep 1; done
+    
+    #swaybar_command waybar
+    colors {
+        statusline #ffffff
+        background #000000AA
+        inactive_workspace #323232AA #323232AA #5c5c5cAA
+    }
+}

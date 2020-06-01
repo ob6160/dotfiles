@@ -1,0 +1,11 @@
+#
+# Clamshell Mode
+#
+# We want to turn off the laptop screen when the lid is closed
+#
+# https://github.com/swaywm/sway/wiki#clamshell-mode
+#
+
+set $laptop eDP-1
+bindswitch lid:on output $laptop disable
+bindswitch lid:off output $laptop enable

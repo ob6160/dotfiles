@@ -1,0 +1,3 @@
+[submodule "scripts/swaylock-fancy-multimonitor"]
+	path = scripts/swaylock-fancy-multimonitor
+	url = https://github.com/sainoba/swaylock-fancy-multimonitor.git
