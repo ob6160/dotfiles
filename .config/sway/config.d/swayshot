@@ -9,6 +9,6 @@
 # The default value is XDG_PICTURES_DIR, see
 # https://wiki.archlinux.org/index.php/XDG_user_directories 
 
-#bindsym Print exec swayshot && wl-copy < $(wl-paste)
-#bindsym Mod1+Print exec swayshot window && wl-copy < $(wl-paste)
-#bindsym Shift+Print exec swayshot region && wl-copy < $(wl-paste)
+bindsym Print exec swayshot && wl-copy < $(wl-paste)
+bindsym Mod1+Print exec swayshot window && wl-copy < $(wl-paste)
+bindsym Shift+Print exec swayshot region && wl-copy < $(wl-paste)
