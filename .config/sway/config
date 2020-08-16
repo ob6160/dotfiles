@@ -18,8 +18,8 @@ set $wallpaper_four /home/oliver/.config/sway/images/bg4.jpg
 set $lockscreenbg ~/.config/sway/images/bg.jpg
 
 # Establish gaps between windows and from the screen edge
-gaps inner 5
-gaps outer 1
+gaps inner 0
+gaps outer 0
 
 # Your preferred terminal emulator
 set $term alacritty

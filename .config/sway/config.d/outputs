@@ -12,5 +12,5 @@ output "*" bg $wallpaper_four fill
 #
 output "eDP-1" bg $wallpaper fill
 
-output DP-1 pos 0 0 res 1920x1080
-output eDP-1 pos 0 1080 res 1920x1080
+output DP-6 pos 0 720 res 1920x1200
+output DP-5 pos 1920 0 res 1920x1200 transform 270
