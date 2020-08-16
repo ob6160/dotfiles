@@ -1,0 +1,12 @@
+
+# Ignore everything... apart from...
+#
+#
+/*
+!.bash_profile
+!.bashrc
+.gitignore
+!.vimrc
+!.zshrc
+!.config
+!.config/*
