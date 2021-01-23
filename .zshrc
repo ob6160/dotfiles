@@ -120,3 +120,5 @@ export GTK_THEME=Arc:dark
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 alias vim=nvim
+
+export GOPATH="$HOME/go"
