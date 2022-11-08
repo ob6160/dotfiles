@@ -123,4 +123,4 @@ alias vim=nvim
 
 export GOPATH="$HOME/go"
 
-
+eval "$(fnm env --use-on-cd)"
