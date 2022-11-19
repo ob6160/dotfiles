@@ -18,4 +18,5 @@ input "1739:30382:DLL0704:01_06CB:76AE_Touchpad" {
 	tap enabled
 	natural_scroll disabled
 	middle_emulation enabled
+  pointer_accel 0.3
 }
